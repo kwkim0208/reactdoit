@@ -8,7 +8,7 @@ class LifecycleExample extends  React.Component{
         super(props);
         this.state={};
         let message=`constructor() 호출`;
-        console.log(message);
+        console.log('constructor() 호출');
     }
     componentDidMount() {
         console.log("componentDidMount 호출");
