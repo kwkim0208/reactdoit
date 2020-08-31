@@ -4,6 +4,7 @@ import './App.css';
 import PropsComponent from "./ch03/PropsComponent";
 import BooleanComponent from "./ch03/BooleanComponent";
 import StateExample from "./ch03/StateExample";
+import LifecycleExample from "./ch03/LifecycleExample";
 
 function App() {
     return (
@@ -13,7 +14,8 @@ function App() {
             <div><b>즐거울떄:</b><BooleanComponent/></div>
         </div>*/
         <div>
-            <StateExample/>
+{/*            <StateExample/>*/}
+<LifecycleExample/>
         </div>
 
     );
