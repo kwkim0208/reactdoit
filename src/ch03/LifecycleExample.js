@@ -1,4 +1,4 @@
-import React from "react";
+    import React from "react";
 class LifecycleExample extends  React.Component{
     static  getDerivedStateFromProps() {
         console.log('getDerivedStateFromProps 호출');
@@ -8,10 +8,11 @@ class LifecycleExample extends  React.Component{
         super(props);
         this.state={};
         let message=`constructor() 호출`;
-        console.log('constructor() 호출');
+        //console.log(''+${message});
     }
     componentDidMount() {
-        console.log("componentDidMount 호출");
+        console.log("" +
+            "componentDidMount 호출");
     }
     componentDidUpdate(prevProps, prevState, snapshot) {
         console.log('componentDidUpdate() 호출 ')
